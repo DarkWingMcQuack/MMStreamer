@@ -39,6 +39,7 @@ auto main(int argc, char const* argv[])
 
     if(!vm.count("input")
        || !vm.count("partitions")
+       || !vm.count("balancing")
        || vm.count("help")) {
 
         std::cout << description;
