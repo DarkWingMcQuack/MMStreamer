@@ -9,7 +9,7 @@ auto main(int argc, char const* argv[])
 {
     namespace po = boost::program_options;
 
-    po::options_description description{"MMStreamer - Hypergraph Partitioner MinMax Streaming"};
+    po::options_description description{"MMStreamer - Hypergraph Partitioner which uses MinMax Streaming"};
 
 
     // clang-format off
