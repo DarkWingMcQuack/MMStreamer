@@ -25,7 +25,7 @@ auto main(int argc, char const* argv[])
          "input hypergraph file")
 
         ("balancing,b",
-         po::value<double>(),
+         po::value<double>()->default_value(0.05),
          "a value between 1 and 0, to which unbalancing will be bound")
 
         ("partitions,p",
