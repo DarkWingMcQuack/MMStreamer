@@ -9,7 +9,7 @@ auto main(int argc, char const* argv[])
 {
     namespace po = boost::program_options;
 
-    po::options_description description{"HYPE - Hypergraph Partitioner using Neighbourhood Heuristics"};
+    po::options_description description{"MMStreamer - Hypergraph Partitioner MinMax Streaming"};
 
 
     // clang-format off
