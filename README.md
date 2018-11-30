@@ -3,7 +3,7 @@
 # MMStreamer
 
 This is an implementation of a Hypergraph partitioner using MinMax Streaming as described in [this](http://papers.nips.cc/paper/5897-streaming-min-max-hypergraph-partitioning.pdf) paper.
-Instead of balancing the partitions in terms of edges, this partitioner currently uses the nodes.
+Instead of balancing the partitions in terms of edges, this partitioner currently uses the nodes and the maximim unbalancing factor of the cut can be specified via a given parameter.
 
 ## How to build 
 To build MMStreamer, make sure you have [Boost](https://www.boost.org/), [CMake](https://cmake.org) and a C++17 compatible
